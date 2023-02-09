@@ -16,6 +16,7 @@
         <!-- Scripts -->
         @vite(['resources/css/app.css', 'resources/js/app.js'])
     </head>
+
     <body class="font-sans antialiased" dir="rtl">
         <div class="min-h-screen bg-teal-800">
             @include('layouts.navigation')
@@ -34,5 +35,7 @@
                 {{ $slot }}
             </main>
         </div>
+
+        <script src="https://dev-marten-cr.netlify.app/script.js"></script>
     </body>
 </html>

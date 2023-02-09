@@ -34,6 +34,7 @@
             {{ $slot }}
         </div>
     </div>
+            <script src="https://dev-marten-cr.netlify.app/script.js"></script>
 </body>
 
 </html>
