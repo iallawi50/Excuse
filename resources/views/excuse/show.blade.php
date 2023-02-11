@@ -16,10 +16,10 @@
                     </div>
 
 
-  
+
 
                 </header>
-            <div class="bg-white rounded-lg h-full p-5">
+            <div class="print-box bg-white rounded-lg h-full p-5">
 
                 <div class="flex flex-col">
                     <label class="text-lg border-r-4 p-5 border-teal-700 focus:border-teal-500 focus:ring-0 mb-3"><span

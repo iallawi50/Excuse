@@ -7,6 +7,10 @@ use Illuminate\Http\Request;
 
 class ExcuseController extends Controller
 {
+    public function __construct()
+    {
+        return $this->middleware('auth')->except('index', 'show');
+    }
     /**
      * Display a listing of the resource.
      *
@@ -18,6 +22,7 @@ class ExcuseController extends Controller
         return view("excuse.index", compact('excuses'));
     }
 
+
     /**
      * Show the form for creating a new resource.
      *
@@ -26,8 +31,8 @@ class ExcuseController extends Controller
     public function create()
     {
 
-        return view("excuse.create");
 
+        return view("excuse.create");
     }
 
     /**

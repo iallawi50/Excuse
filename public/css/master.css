@@ -5,10 +5,20 @@ body {
 .logo {
     fill: #0f766e;
     width: 300px !important;
+    position: relative;
 }
 
+
+
 @media print {
+
+    .print-box {
+        margin-top: -100px;
+    }
     .print {
         visibility: hidden;
+    }
+    .flex-col {
+        margin-bottom: 20px;
     }
 }
